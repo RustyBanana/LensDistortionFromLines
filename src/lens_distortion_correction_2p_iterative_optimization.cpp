@@ -477,7 +477,7 @@ int main(int argc, char *argv[])
     compute_ps(p1, p2, i_primitives.get_distortion(), width, height, is_division);
     
     fs << "\t Estimated normalized distortion parameters: p1 = " << p1 << " p2 = " << p2 << endl;
-    fs << "\t Average squared error distance in pixels between line and associated points = " << final_error << endl;
+    //fs << "\t Average squared error distance in pixels between line and associated points = " << final_error << endl;
     fs.close();
   }
   
